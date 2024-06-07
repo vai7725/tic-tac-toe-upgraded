@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sectionClass {
+  @apply flex items-center justify-center col-span-12 sm:col-span-6;
+}
+
+.board-cell {
+  @apply ring-1 ring-white col-span-4 flex items-center justify-center text-center font-bold text-lg;
+}
+
+.fade {
+  @apply text-gray-600;
+}
